@@ -1,0 +1,10 @@
+{ "cities": [{
+    "name": "Portland",
+    "attractions": ["Rose Garden", "OMSI"]
+
+  }, {
+    "name": "Austin",
+    "attractions": ["Stubbs", "SXSW"]
+  }]
+
+}

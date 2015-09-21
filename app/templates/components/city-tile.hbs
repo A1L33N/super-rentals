@@ -1,0 +1,8 @@
+<li>{{city.name}}
+  <ul>
+    {{#each city.attractions as |attraction|}}
+      <li>{{attraction}}</li>
+    {{/each}}
+  </ul>
+</li>
+{{yield}}

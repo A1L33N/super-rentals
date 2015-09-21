@@ -1,0 +1,10 @@
+<p>This page will have cities</p>
+
+<ul>
+  {{#each model as |city|}}
+    {{city-tile city=city}}
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Return to main{{/link-to}}
+{{outlet}}
