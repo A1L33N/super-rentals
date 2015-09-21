@@ -1,10 +1,12 @@
-<p>This page will have cities</p>
+<p>Rental Property Cities:</p>
 
 <ul>
-  {{#each model as |city|}}
-    {{city-tile city=city}}
+  {{#each model as |city-unit|}}
+    {{city-tile city=city-unit destroyCity="destroyCity"}}
   {{/each}}
 </ul>
+
+{{new-city step2="step3"}}
 
 {{#link-to 'index'}}Return to main{{/link-to}}
 {{outlet}}
