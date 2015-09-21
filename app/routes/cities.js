@@ -7,7 +7,7 @@ export default Ember.Route.extend({
 
   actions: {
     destroyCity(city) {
-      debugger;
+      // debugger;
       city.destroyRecord();
       this.transitionTo('cities');
     }
