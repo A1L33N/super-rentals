@@ -20,7 +20,8 @@ export default Ember.Route.extend({
           rental.set(key, params[key]);
         }
       });
-      rental.save(),
+
+      rental.save();
       this.transitionTo('index');
     },
 
